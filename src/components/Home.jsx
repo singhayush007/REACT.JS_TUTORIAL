@@ -10,10 +10,10 @@ import Counter from './components/Counter';
 import ShowProduct from './components/ShowProduct';
 import Filterproduct from './components/Filterproduct';
 
-function App() {
+const Home = () => {
   return (
-    <>
-      <div>
+    <div>
+            <div>
         {/* <Person />
             <h1>App is entry point</h1>
             { <Test/>} */}
@@ -51,8 +51,8 @@ function App() {
       <div>
         <Filterproduct/>
       </div>
-    </>
-  );
+    </div>
+  )
 }
 
-export default App;
+export default Home
